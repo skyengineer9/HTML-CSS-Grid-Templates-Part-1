@@ -1,0 +1,46 @@
+/* Grid Container 01: Defines a grid with two columns, 200px and 75px wide */
+.grid-container01 {
+  display: grid; /* Enables grid layout */
+  grid-template-columns: 200px 75px; /* Sets specific widths for each column */
+  margin-bottom: 30px; /* Adds space below the container */
+}
+
+/* Grid item in Container 01: Light blue background for the first cell */
+.grid01 {
+  background-color: lightblue;
+}
+
+/* Grid item in Container 01: Pink background for the second cell */
+.grid02 {
+  background-color: pink;
+}
+
+/* Grid Container 02: Defines a grid with three columns of varying widths */
+.grid-container02 {
+  display: grid; /* Enables grid layout */
+  grid-template-columns: 50px 1fr 75px; /* Sets a narrow, flexible, and fixed-width column */
+  margin-bottom: 30px; /* Adds space below the container */
+}
+
+/* Grid items in Container 02: Light blue background for the first and third cells */
+.grid03, .grid05 {
+  background-color: lightblue;
+}
+
+/* Grid item in Container 02: Pink background for the middle cell */
+.grid04 {
+  background-color: pink;
+}
+
+/* Grid Container 03: Defines a flexible grid with four equal-width columns */
+.grid-container03 {
+  display: grid; /* Enables grid layout */
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Creates four columns with equal widths */
+  column-gap: 20px; /* Adds horizontal space between columns */
+  row-gap: 10px; /* Adds vertical space between rows */
+}
+
+/* Grid item in Container 03: Pink background for all grid cells */
+.grid-column {
+  background-color: pink;
+}
